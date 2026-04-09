@@ -5,7 +5,7 @@ def add_sparse_matrices(matrix_a, matrix_b):
     """
     result = dict(matrix_a)
     
-    for key, value in matrix_b.items();
+    for key, value in matrix_b.items():
         result[key] = result.get(key, 0) + value
         # 연산 결과가 0이 되면 메모리 절약을 위해 키를 삭제 (희소성 유지)
         if result[key] == 0:
