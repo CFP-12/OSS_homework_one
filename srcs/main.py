@@ -1,7 +1,7 @@
 from utils import load_sparse_matrix_from_md, add_sparse_matrices, print_dense_matrix
 
 def main():
-    print("=== 마크다운 기반 희소 행렬 연산기 ===")
+    print("=== [FEATURE] 희소 행렬 연산 고급 분석기 ===")
     
     # 파일 로드
     file_path = input("마크다운 행렬 파일 경로를 입력하세요 (예: docs/matrix.md): ")
